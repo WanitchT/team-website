@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fighto</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+    
+        // let fruit = prompt("Which fruit to buy?", "apple");
+        // let bag = {};
+
+        // // เอาค่าชื่อมาจากตัวแปร
+        // bag[fruit] = 5;
+
+        // let propertiesName = "age";
+        // let obj2 = {
+        //     propertiesName: 20, // จะได้ key เป็น propertiesName
+        // }
+        // console.log(obj2);
+
+        // let obj = {};
+        // let key;
+        // let value;
+
+        // while(true){
+        //     key = prompt("ผลไม้");
+        //     if(key === "stop") break;
+            
+        //     value = prompt("จำนวน");
+        //     if(value > 1) {
+        //         key = key + "s"
+        //     }
+        //     obj[key] = value;
+        //     console.log(obj)
+        // }
+
+
+        // let user = { name: 'John' };
+        // let admin = user;
+        // admin.name = 'Pete'; // เปลี่ยน properties name ใน admin
+        // alert(user.name); // 'Pete', properties name ใน user ก็จะถูกเปลี่ยนเช่นเดียวกัน
+
+        
+        // const user = {name : "john"};
+        // user.name = "james";
+
+        // user.age = "90";
+        // // user = {name : "john"};
+        // console.log(user);
+        // // console.log(user);
+        
+        // let user = { name: "John" };
+
+        // let permissions1 = { canView: true };
+        // let permissions2 = { canEdit: true };
+        // let permissions3 = { canDelete: true };
+
+        // // copies all properties from permissions1 and permissions2 into user
+        // Object.assign(user, permissions1, permissions2, permissions3);
+        
+        // console.log(user);
+        // // now user = { name: "John", canView: true, canEdit: true }
+
+        // var myJSON = JSON.stringify(user);
+        // console.log(myJSON)
+
+        let menu = {
+            width: 200,
+            height: 300,
+            title: "My menu"
+        };
+
+        let menu2 = {
+            aa: 200,
+            bb: 300,
+            cc: 100,
+            tt: "text"
+        };
+
+        let times;
+
+        // let objTest = {};
+        // let key;
+        // let value;
+        // let times2;
+
+        // times2 = prompt("จำนวนคูณ");
+        // while(true){
+        //     key = prompt("key?");
+        //     if(key === "stop") break;
+            
+        //     value = prompt("value?");
+        //     //value = parseInt(value);
+        //     if(typeof(parseInt(value)) == "number"){
+        //         value = parseInt(value);
+        //         objTest[key] = value;
+        //     } else {
+        //         objTest[key] = value;
+        //     }
+
+        // }
+        // console.log(objTest)
+
+        // function multiplyNumeric(obj, times){
+        //     for (let key in obj) {
+        //         //console.log(typeof obj[key])
+        //         if(typeof(obj[key]) == "number"){
+        //             console.log(obj[key], "is number")
+        //             obj[key] = obj[key] * times
+        //             console.log("new value =", obj[key])
+        //         } else {
+        //             console.log(obj[key], "is not a number")
+        //             console.log("new value =", obj[key])
+        //         }
+        //     }
+        // }
+
+        // multiplyNumeric(menu,3)
+        // console.log(menu)
+
+        // multiplyNumeric(menu2,5)
+        // console.log(menu2)
+
+        // multiplyNumeric(objTest,times2)
+        // console.log(objTest)
+
+
+        let calculator = {
+            num1 : 1,
+            num2 : 1,
+            read() {
+                this.num1 = prompt("num 1")
+                this.num2 = prompt("num 1")
+                //alert(this.value)
+            },
+            sum() {
+                return Number(this.num1) + Number(this.num2)
+            },
+            mul() {
+                return Number(this.num1) * Number(this.num2)
+            },
+
+        }
+
+        calculator.read();
+        alert( calculator.sum() );
+        alert( calculator.mul() );
+
+
+
+    </script>
+
+
+</body>
+</html>

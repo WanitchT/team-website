@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fighto</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+    
+        // let fruits = ["Apple", "Orange", "Plum"];
+
+        // fruits[3] = 'Pear';
+
+        // console.log( fruits[0] ); // Apple
+        // console.log( fruits[1] ); // Orange
+        // console.log( fruits[2] ); // Plum
+        // console.log( fruits[3] ); // Plum
+
+        // let arr = ["Apple", "Orange", "Pear"];
+
+        // for (let i = 0; i < arr.length; i++) {
+        //     console.log( arr[i] );
+        // }
+
+        // let fruits = ["Apples", "Pear", "Orange"];
+
+        // let shoppingCart = fruits;  //ชี้ไปที่เดียวกัน
+        // console.log( fruits.length ); // ?
+        // console.log( shoppingCart.length ); // ?
+        // shoppingCart.push("Banana");
+
+        // console.log( fruits.length ); // ?
+        // console.log( shoppingCart.length ); // ?
+
+
+        // let styles = ["Jazz", "Blues"];
+        // console.log( styles ); // ?
+
+        // styles.push("Rock-n-Roll")
+        // console.log( styles ); // ?
+
+        // console.log( styles.length ); // ?
+
+        // mid = Math.floor(styles.length / 2)
+        // console.log( mid ); // ?
+
+        // styles[mid] = 'Classics';
+        // console.log( styles ); // ?
+
+        // styles.shift();
+        // console.log( styles ); // ?
+
+        // styles.unshift("Rap")
+        // styles.unshift("Reggae")
+        // //styles.unshift("Rap", "Reggae")
+        // console.log( styles ); // ?
+
+        //let arr = []
+
+
+
+
+
+
+
+
+        // let sum = {
+        //     arr : [],
+        //     inputText : 1,
+            
+        //     readArray() {
+                
+        //         this.inputText = prompt("input number")
+                
+                
+        //         if( isFinite(sum.inputText) ) {
+        //             sum.arr.push(sum.inputText)
+        //             console.log( this.arr )
+        //         } else {
+        //             console.log("total sum : ", sum.sumArray() );
+        //         }
+                
+        //     },
+        //     sumArray() {
+        //         let sumAll = 0;
+        //         for (key of this.arr) {
+        //             sumAll += Number(key)
+        //         }
+        //         return sumAll
+        //     }
+        // }
+
+        // while(true){
+        //     sum.readArray();
+        //     if( isFinite(sum.inputText) == false ) break;
+            
+        // }
+
+
+
+
+
+
+        function unique(arr) {
+            /* your code */
+            let set = new Set(arr);
+            return set;
+        }
+
+        let values = ["Hare", "Krishna", "Hare", "Krishna", "Krishna", "Krishna", "Hare", "Hare", ":-O" ];
+
+        console.log( unique(values) ); // Hare, Krishna, :-O
+
+
+    </script>
+
+
+</body>
+</html>

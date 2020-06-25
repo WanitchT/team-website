@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fighto</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+    
+        console.log( 0xff );
+        let num = 255; 
+
+        console.log( num.toString(16) ); // ff
+        console.log( num.toString(2) ); // 11111111
+        console.log( num.toString() ); // 255
+
+        let num2 = 1.23456;
+        console.log( Math.floor(num2 * 100) / 100 );
+
+        console.log( Math.random() ); // 0.1234567899864
+        console.log( Math.random() ); // 0.5435258423432
+        console.log( Math.random() ); // ... (any random numbers)
+
+
+        let str = "Happy New Year"
+
+        console.log( str.length ); // 14
+        console.log( "Hello World".length ); // 11
+        console.log( "สวัสดี".length ); // 11
+        console.log( `My\n`.length ); // 3
+
+
+        for (let char2 of "Happy New Year") {
+            console.log(char2); // H,e,l,l,o 
+        }
+
+        let str2 = 'Widget with id';
+
+        console.log( str2.indexOf('Widget') ); // 0, พบที่ตำแหน่งแรก
+        console.log( str2.indexOf('widget') ); // -1, ไม่พบ เพราะว่าตัว “W” กับ “w” ไม่ใช่ตัวเดียวกัน 
+        console.log( str2.indexOf("id") ); // 1, "id" พบที่ตำแหน่งที่ 1
+        console.log( str2.indexOf("id", 2) ); // 12, เริ่มค้นหาจากตำแหน่งที่ 2 พบ "id" ที่ตำแหน่งที่ 12
+
+
+    </script>
+
+
+</body>
+</html>

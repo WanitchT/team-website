@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fighto</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+    // {
+    //     let number = 1;
+    //     const myName = “supakon”;
+    // }
+    // console.log(number);
+    // console.log(myName); 
+
+    // // ไม่ดี
+    // const name = "Capt. Janeway";
+
+    // // ดี
+    // const name = 'Capt. Janeway';
+
+    // // ไม่ดี
+    // const errorMessage = 'This is a super long error that was thrown because of Batman. When you stop to think about how Batman had anything to do with this, you would get nowhere fast.';
+
+    // // ไม่ดี
+    // const errorMessage = 'This is a super long error that was thrown because \
+    // of Batman. When you stop to think about how Batman had anything to do \
+    // with this, you would get nowhere \
+    // fast.';
+
+    // // ดี
+    // const errorMessage = 'This is a super long error that was thrown because ' +
+    // 'of Batman. When you stop to think about how Batman had anything to do ' +
+    // 'with this, you would get nowhere fast.';
+
+
+    const fruits = ['apple','banana','orange']
+
+    const fruitsCopy = [...fruits];
+
+    fruitsCopy.push("pineapple")
+
+    console.log(fruits)
+    console.log(fruitsCopy)
+
+
+    const students = [ { id:1 ,name : 'bean', age : 14},{id:2 , name : 'ken', age : 15}]
+
+    const studentsCopy = [...students]
+
+    obj1 = {id:3 ,name : 'jack'}
+
+    studentsCopy.push(obj1)
+
+    console.log(students)
+    console.log(studentsCopy)
+
+    function getFullName({ firstName, lastName }) { // รับค่าโดยใช้ Destructuring
+        return `${firstName} ${lastName}`;
+    }
+
+    // TODO 
+
+    // FIXME:
+
+
+
+    // let test;
+    // if (currentUser) {
+    //     test = () => {
+    //         console.log('Nope.');
+    //     }
+    // }
+
+
+
+
+    </script>
+
+
+</body>
+</html>
